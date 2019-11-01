@@ -1,0 +1,50 @@
+# auto-sudo
+alias pacman="sudo pacman"
+alias reall="sudo reall"
+alias mount="sudo mount"
+alias umount="sudo umount"
+alias reflector="sudo reflector --verbose -l 15 --sort rate --save /etc/pacman.d/mirrorlist"
+
+alias fuck='sudo $(fc -ln -1)'
+
+# short-hand
+alias Syua='yaourt -Syua --noconfirm'
+alias syua='yaourt -Syua --noconfirm'
+alias ml="mpc listall"
+alias gre="grep"
+alias ma="mpc add"
+alias mp="mpc play"
+alias ams="amixer set Master"
+alias rmr="rm -r"
+alias rmrt="rm -r *"
+alias echn="echo nah > nah"
+alias how="bro"
+alias gv="grep -v"
+alias lsg="ls | grep"
+alias pgrep="ps aux | grep -v grep | grep"
+alias cat="kat"
+
+# sanity adjustments
+alias pebble="rebble"
+alias free="free -h"
+alias rmlint="rmlint -L"
+alias mkdir="mkdir -p"
+alias clear="clear && ~/TODO"
+alias du="du -sh"
+alias df="df -h | grep -v tmpfs | grep -v ^dev | grep -v ^run"
+alias py="python"
+alias cac="CAC"
+
+# vim aliases
+alias vi="nvim "
+alias vim="nvim "
+alias bim="nvim "
+# alias nano="vim "
+
+# and config file shortcuts
+alias 'zsh'="~/.zshrc"
+alias 'aliases'="~/.shell_aliases"
+alias 'i3'="~/.config/i3/config"
+alias 'i3status'="~/.config/i3status/config"
+alias cvim="nvim ~/.nvimrc"
+alias vimc="nvim ~/.nvimrc"
